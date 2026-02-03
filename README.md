@@ -103,14 +103,23 @@ nextflow run main.nf \
 ## Parameters
 
  Parameter | Description | Default |
+ 
  `--cancer_type` | Cancer type (BRCA, LUAD, etc.) | null |
+ 
  `--vcf` | Path to input VCF file | null |
+ 
  `--vcf_dir` | Directory for auto-discovery | null |
+ 
  `--sample_sheet` | CSV with cancer types and VCFs | null |
+ 
  `--rpm_threshold` | RPM threshold for miRNA expression | null |
+ 
  `--skip_genomic_regions` | Skip genomic region analysis | false |
+ 
  `--lines_per_chunk` | Variants per chunk | 200000 |
+ 
  `--outdir` | Output directory | results/ |
+ 
  `--base_dir` | Base directory for resources | pipeline dir |
 
 # Resource Configuration
