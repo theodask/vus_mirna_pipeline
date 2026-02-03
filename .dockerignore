@@ -1,0 +1,7 @@
+# Ignore all pipeline results and temporary files
+results/
+work/
+
+# Ignore large files
+*.rda
+*.Rdata

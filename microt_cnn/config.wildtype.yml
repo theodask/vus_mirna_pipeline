@@ -1,0 +1,17 @@
+src_dir : "/R/"
+exon_file : "exons.wildtype.tab"
+transcript_file_fasta : "wildtype.fa"
+miRNA.fa : "wildtype_mirna_sequences.fasta"
+mrescan_dir : "/R/bin/MREscan"
+bbmap_dir : "/R/bin/MREscan/bbmap"
+path_RNAduplex : "/R/bin/ViennaRNA/20.04"
+wigFixDir : "/hg38/"
+path_contrafold : "/R/bin/contrafold/"
+path_model : "/R/bin/model/"
+resultdir : "Results_wildtype"
+outputPrefix : "microTCNN_output_wildtype"
+threads : 12
+mre_score : 0.5
+gene_score : 0.7
+
+

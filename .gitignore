@@ -1,0 +1,85 @@
+# Nextflow work directories
+work/
+.nextflow/
+.nextflow.log*
+
+# Results
+results/
+
+# Pipeline reports
+*.html
+timeline*.html
+report*.html
+trace*.txt
+dag*.svg
+pipeline_*.html
+pipeline_*.txt
+pipeline_*.svg
+
+# Large reference files (users download separately)
+resources/genomic_annotation/*.fa
+resources/genomic_annotation/*.fai
+resources/genomic_annotation/*.gtf
+resources/variants/*.vcf
+resources/variants/*.vcf.gz
+resources/metadata/**/*.tar.gz
+resources/miTED/**/*.tsv
+resources/aggregated_variants/**/*.vcf.gz
+resources/chip_seq_atlas/**/*
+microt_cnn/*.gff3
+microt_cnn/*.gtf
+
+# All VCF and genomic data files
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bam
+*.bam.bai
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.fa
+*.fasta
+
+# But keep .gitkeep files to preserve directory structure
+!.gitkeep
+!*.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+
+# R cache
+.Rhistory
+.RData
+.Rproj.user
+*.rda
+*.Rdata
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+#Gencode db
+gencode_grch38.db
+*.db
+**/*.db
+
+# Tarbase annotation files 
+resources/microRNA_annotation/TarBasev9*.tsv
+microt_cnn/TarBasev9*.tsv
+
+# Build logs
+build.log

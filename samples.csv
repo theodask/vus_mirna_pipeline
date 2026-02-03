@@ -1,0 +1,4 @@
+cancer_type,vcf_path
+BRCA,/mnt/raid1/theo/Documents/nextflow/resources/aggregated_variants/BRCA/merged_BRCA.vcf.gz
+
+

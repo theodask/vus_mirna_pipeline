@@ -1,0 +1,17 @@
+src_dir : "/R/"
+exon_file : "exons.mutated.tab"
+transcript_file_fasta : "mutated.fa"
+miRNA.fa : "wildtype_mirna_sequences.fasta"
+mrescan_dir : "/R/bin/MREscan"
+bbmap_dir : "/R/bin/MREscan/bbmap"
+path_RNAduplex : "/R/bin/ViennaRNA/20.04"
+wigFixDir : "/hg38/"
+path_contrafold : "/R/bin/contrafold/"
+path_model : "/R/bin/model/"
+resultdir : "Results_mutated"
+outputPrefix : "microTCNN_output_mutated"
+threads : 12
+mre_score : 0.5
+gene_score : 0.7
+
+
