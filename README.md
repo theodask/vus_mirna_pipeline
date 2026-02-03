@@ -40,7 +40,7 @@ docker pull theodask/vus_mirna_pipeline:1.0
 
 # Running the Pipeline
 
-# Single Cancer Type
+## Single Cancer Type
 
 ```
 nextflow run main.nf \
@@ -52,7 +52,7 @@ nextflow run main.nf \
     -resume
 ```
 
-# Multiple Cancer Types (Sample Sheet)
+## Multiple Cancer Types (Sample Sheet)
 
 Create `samples.csv`:
 ```csv
@@ -74,7 +74,7 @@ nextflow run main.nf \
 
 # Required Files
 
-# Download and Place in resources/ directory:
+## Download and Place in resources/ directory:
 
 **Genomic Annotation** (`resources/genomic_annotation/`):
 - `Homo_sapiens.GRCh38.113.gtf` - [Ensembl GTF](http://ftp.ensembl.org/pub/release-113/gtf/homo_sapiens/)
@@ -100,7 +100,7 @@ nextflow run main.nf \
 
 # Configuration
 
-# Parameters
+## Parameters
 
  Parameter | Description | Default |
  `--cancer_type` | Cancer type (BRCA, LUAD, etc.) | null |
@@ -175,7 +175,7 @@ docker build -t theodask/vus_mirna_pipeline:1.0 .
 
 # Troubleshooting
 
-# Common Issues
+## Common Issues
 
 **Out of memory**
 ```
