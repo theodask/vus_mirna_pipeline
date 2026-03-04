@@ -175,13 +175,6 @@ docker pull theodask/vus_mirna_pipeline:1.0
 docker build -t theodask/vus_mirna_pipeline:1.0 .
 ```
 
-# Included Software
-
-- **R 4.0.3**: tidyverse, Bioconductor, survival, survminer, glmnet
-- **Python 3**: numpy, matplotlib, gffutils, intervaltree
-- **Tools**: bedtools, samtools, bcftools, tabix
-
-
 # Troubleshooting
 
 ## Common Issues
